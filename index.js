@@ -22,7 +22,7 @@ function appendToDisplay(input) {
 }
 function calculate() {
     try {
-        display.value = parseFloat(eval(display.value).toFixed(5))
+        display.value = parseFloat(eval(display.value).toFixed(4))
         display.scrollLeft = 0;
     } catch {
         display.value = "Error"
